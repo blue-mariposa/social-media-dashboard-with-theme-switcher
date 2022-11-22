@@ -20,15 +20,15 @@ This social-media-dashboard-with-theme-switcher chllenge was built with accessib
 
 ### Screenshot
 
-- [desktop-active-card-light-theme](./screenshots/desktop-active-card-light-theme.png)
-- [desktop-active-dark-theme](./screenshots/desktop-active-dark-theme.png)
-- [desktop-active-toggle-light-theme](./screenshots/desktop-active-toggle-light-theme.png)
-- [desktop-view-dark-theme](./screenshots/desktop-view-dark-theme.png)
-- [desktop-view-light-theme](./screenshots/desktop-view-light-theme.png)
-- [mobile-view-dark-theme](./screenshots/mobile-view-dark-theme.png)
-- [mobile-view-light-theme](./screenshots/mobile-view-light-theme.png)
-- [tablet-view-dark-theme](./screenshots/tablet-view-dark-theme.png)
-- [tablet-view-light-theme](./screenshots/tablet-view-light-theme.png)
+![desktop-active-card-light-theme](./screenshots/desktop-active-card-light-theme.png)
+![desktop-active-dark-theme](./screenshots/desktop-active-dark-theme.png)
+![desktop-active-toggle-light-theme](./screenshots/desktop-active-toggle-light-theme.png)
+![desktop-view-dark-theme](./screenshots/desktop-view-dark-theme.png)
+![desktop-view-light-theme](./screenshots/desktop-view-light-theme.png)
+![mobile-view-dark-theme](./screenshots/mobile-view-dark-theme.png)
+![mobile-view-light-theme](./screenshots/mobile-view-light-theme.png)
+![tablet-view-dark-theme](./screenshots/tablet-view-dark-theme.png)
+![tablet-view-light-theme](./screenshots/tablet-view-light-theme.png)
 
 ## My process
 - Took notes of the requirements of the project and research needed.
