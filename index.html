@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Description -->
+    <meta name="description" content="Dark and Light theme social media dashboard for Twitter, Facebook, Instagram and Youtube.">
+    <!-- Keywords -->
+    <meta name="keywords" content="Social media dashboard, Twitter, Facebook, Instagram, Youtube, Total views, Total likes, Total followers, Dark theme, Light theme, Total likes, Total followers, percentage">
+    <!-- Author -->
+    <meta name="author" content="blue-mariposa">
+
+    <!-- Title Icon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/social-dashboard.css">
+
+    <!-- Title -->
+    <title>Social Media Dashboard</title>
+</head>
+<body>
+    
+    <!-- tart ofheader -->
+    <header class="header">
+        <!-- Title -->
+        <div class="main-heading">
+            <h1>Social Media Dashboard</h1>
+            <h3>Total Followers: 23,004</h3>
+        </div>
+
+        <!-- Switch -->
+        <div class="switch" tabindex="0" aria-description="Dark and light colour scheme toggle button">
+            <input type="checkbox" name="theme-toggle" id="theme-toggle" aria-hidden="true" onchange="darkBtnToggle(300)">
+            <label for="theme-toggle">Dark Mode</label>
+        </div>
+    </header>
+    <!-- End of header -->
+    
+    <!-- Start of main content -->
+    <main>
+        <!-- Total  Section-->
+        <section class="cards" aria-description="Total number of followers on Facebook, Instagram, Twitter and YouTube">
+            <!-- Facebook Card-->
+            <div class="card facebook" tabindex="0">
+                <div class="user">
+                    <img src="./assets/images/icon-facebook.svg" alt="Facebook icon">
+                    <h3>@nathanf</h3>
+                </div>
+                <p>1987</p>
+                <p>Followers</p>
+                <div class="green">
+                    <img src="./assets/images/icon-up.svg" alt="Up arrow icon">
+                    <p>12 Today</p>
+                </div>
+            </div>
+
+            <!-- Twitter Card-->
+            <div class="card twitter" tabindex="0">
+                <div class="user">
+                    <img src="./assets/images/icon-twitter.svg" alt="Twitter icon">
+                    <h3>@nathanf</h3>
+                </div>
+                <p>1044</p>
+                <p>Followers</p>
+                <div class="green">
+                    <img src="./assets/images/icon-up.svg" alt="Up arrow icon">
+                    <p>99 Today</p>
+                </div>
+            </div>
+
+            <!-- Instagram Card-->
+            <div class="card instagram" tabindex="0">
+                <div class="user">
+                    <img src="./assets/images/icon-instagram.svg" alt="Instagram icon">
+                    <h3>@nathanf</h3>
+                </div>
+                <p>11k</p>
+                <p>Followers</p>
+                <div class="green">
+                    <img src="./assets/images/icon-up.svg" alt="Up arrow icon">
+                    <p> 1099 Today</p>
+                </div>
+            </div>
+
+            <!-- Youtube Card-->
+            <div class="card youtube" tabindex="0">
+                <div class="user">
+                    <img src="./assets/images/icon-youtube.svg" alt="Youtube icon">
+                    <h3>@nathanf</h3>
+                </div>
+                <p>8239</p>
+                <p>Followers</p>
+                <div class="red">
+                    <img src="./assets/images/icon-down.svg" alt="Down arrow icon">
+                    <p> 144 Today</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Overview Section -->
+        <section class="overview cards" aria-description="Daily page views, likes, profile views and retwweets on Instagram, Facebook, Twitter and YouTube.">
+            <!-- Heading -->
+            <h2>Overview - Today</h2>
+            <!-- Facebook Page Views -->
+            <div class="card" tabindex="0">
+                <!-- platform name and icon -->
+                <div class="user">
+                    <h3>Page Views</h3>
+                    <img src="./assets/images/icon-facebook.svg" alt="Facebook icon">
+                </div>
+                <!-- platform count and icon -->
+                <div class="overview-counter">
+                    <p>87</p>
+                    <div class="overview-percent green">
+                        <img src="./assets/images/icon-up.svg" alt="Up arrow icon">
+                        <p>3%</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Facebook Likes -->
+            <div class="card" tabindex="0">
+                <!-- platform name and icon -->
+                <div class="user">
+                    <h3>Likes</h3>
+                    <img src="./assets/images/icon-facebook.svg" alt="Facebook icon">
+                </div>
+                <!-- platform count and icon -->
+                <div class="overview-counter">
+                    <p>52</p>
+                    <div class="overview-percent red">
+                        <img src="./assets/images/icon-down.svg" alt="Down arrow icon">
+                        <p>2%</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Instagram Likes -->
+            <div class="card" tabindex="0">
+                <!-- platform name and icon -->
+                <div class="user">
+                    <h3>Likes</h3>
+                    <img src="./assets/images/icon-instagram.svg" alt="Instagram icon">
+                </div>
+                <!-- platform count and icon -->
+                <div class="overview-counter">
+                    <p>5462</p>
+                    <div class="overview-percent green">
+                        <img src="./assets/images/icon-up.svg" alt="Up arrow icon">
+                        <p>2257%</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Instagram Profile views -->
+            <div class="card" tabindex="0">
+                <!-- platform name and icon -->
+                <div class="user">
+                    <h3>Profile Views</h3>
+                    <img src="./assets/images/icon-instagram.svg" alt="Facebook icon">
+                </div>
+                <!-- platform count and icon -->
+                <div class="overview-counter">
+                    <p>52k</p>
+                    <div class="overview-percent green">
+                        <img src="./assets/images/icon-up.svg" alt="Up arrow icon">
+                        <p>1375%</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Twitter Tweets -->
+            <div class="card" tabindex="0">
+                <!-- platform name and icon -->
+                <div class="user">
+                    <h3>Retweets</h3>
+                    <img src="./assets/images/icon-twitter.svg" alt="Twitter icon">
+                </div>
+                <!-- platform count and icon -->
+                <div class="overview-counter">
+                    <p>117</p>
+                    <div class="overview-percent green">
+                        <img src="./assets/images/icon-up.svg" alt="Up arrow icon">
+                        <p>303%</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Twitter Likes -->
+            <div class="card" tabindex="0">
+                <!-- platform name and icon -->
+                <div class="user">
+                    <h3>Likes</h3>
+                    <img src="./assets/images/icon-twitter.svg" alt="Twitter icon">
+                </div>
+                <!-- platform count and icon -->
+                <div class="overview-counter">
+                    <p>507</p>
+                    <div class="overview-percent green">
+                        <img src="./assets/images/icon-up.svg" alt="Up arrow icon">
+                        <p>553%</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Youtube Likes -->
+            <div class="card" tabindex="0">
+                <!-- platform name and icon -->
+                <div class="user">
+                    <h3>Likes</h3>
+                    <img src="./assets/images/icon-youtube.svg" alt="Youtube icon">
+                </div>
+                <!-- platform count and icon -->
+                <div class="overview-counter">
+                    <p>107</p>
+                    <div class="overview-percent red">
+                        <img src="./assets/images/icon-down.svg" alt="Down arrow icon">
+                        <p>19%</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Youtube Total Views -->
+            <div class="card" tabindex="0">
+                <!-- platform name and icon -->
+                <div class="user">
+                    <h3>Total Views</h3>
+                    <img src="./assets/images/icon-youtube.svg" alt="Youtube icon">
+                </div>
+                <!-- platform count and icon -->
+                <div class="overview-counter">
+                    <p>1407</p>
+                    <div class="overview-percent red">
+                        <img src="./assets/images/icon-down.svg" alt="Down arrow icon">
+                        <p>12%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- End of main content -->
+
+    <!-- Start of attribution -->
+    <footer class="attribution">
+		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" tabindex="0">Frontend Mentor</a>. 
+		Coded by <a href="https://github.com/blue-mariposa" target="_blank" tabindex="0">blue-mariposa</a>.
+	</footer>
+    <!-- End of attribution -->
+
+    <!-- Javascript -->
+    <script src="./assets/js/social-dashboard.js"></script>
+</body>
+</html>
