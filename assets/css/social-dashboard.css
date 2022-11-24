@@ -59,8 +59,8 @@ body::before {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 88%;
-    padding: 3% 0;
+    max-width: 85%;
+    padding: 2rem 0;
     position: relative;
 }
 
@@ -147,10 +147,7 @@ body::before {
 }
 
 /* Tab focus on the switch button and links */
-.switch:focus-visible {
-    outline: var(--red) solid 1px;
-}
-
+.switch:focus-visible,
 a:focus-visible {
     outline: var(--red) solid 1px;
 }
@@ -158,7 +155,7 @@ a:focus-visible {
 /* Cards */
 .cards {
     display: grid;
-    gap: calc((100% - (800px)) / 4);
+    gap: 1.2rem;
     grid-template-columns: repeat(4, 1fr);
 }
 
@@ -166,10 +163,8 @@ a:focus-visible {
     background-color: var(--bg-card-light);
     border-radius: 5px;
     cursor: pointer;
-    max-width: 240px;
-    min-width: 200px;
     overflow: hidden;
-    padding: 10%;
+    padding: 2rem;
     position: relative;
     text-align: center;
 }
@@ -202,7 +197,7 @@ a:focus-visible {
 
 /* Total Section */
 main {
-    max-width: 88%;
+    max-width: 85%;
     margin: auto;
 }
 
@@ -272,10 +267,6 @@ main {
     margin-bottom: 2rem;
 }
 
-.overview .card:first-of-type {
-    padding: 10%;
-}
-
 .overview .user {
     justify-content: space-between;
 }
@@ -288,7 +279,7 @@ main {
 }
 
 .overview-counter > p {
-    font-size: 2rem;
+    font-size: 1.756rem;
     font-weight: 700;
 }
 
@@ -375,21 +366,10 @@ body.dark::before {
 /* Large Screen */
 @media only screen and (max-width:900px) {
 
-    /* Header */
-    main,
-    .header {
-        width: 90%;
-    }
-
     /* Cards / Card */
     .cards {
         grid-template-columns: repeat(2, 1fr);
-        gap: calc((100% - (400px)) / 4);
         row-gap: 2rem;
-    }
-
-    .card {
-        min-width: 100%;
     }
 
     /* Overview Section */
@@ -410,17 +390,17 @@ body.dark::before {
 
     .main-heading {
         border-bottom: solid 1px var(--normal-txt-dark);
-        padding: 5% 0;
+        padding: 0 0 1.5rem;
         width: 100%;
     }
 
     .main-heading h1 {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
     /* switch */
     .switch {
-        padding: 5% 0;
+        padding: 2rem 0;
     }
 
     .switch label::before {
@@ -429,12 +409,6 @@ body.dark::before {
 
     .switch label::after {
         left: 157%;
-    }
-
-    /* Cards / Card */
-    .cards ,
-    .card {
-        width: 100%;
     }
 
 }
@@ -458,14 +432,12 @@ body.dark::before {
     /* Total Section */
     main {
         max-width: 340px;
-        margin-top: 8%;
+        margin-top: 2.5rem;
     }
 
     /* Cards */
     .cards {
         grid-template-columns: 1fr;
-        max-width: 340px;
-        row-gap: 1.89rem;
     }
 
     /* Overview Section */
